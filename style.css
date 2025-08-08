@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+header .title {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.contact {
+  font-size: 0.95rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #34495e;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  list-style: none;
+  background: #ecf0f1;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
+
+.job, .edu {
+  margin-bottom: 20px;
+}
+
+.job h3, .edu h3 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+
